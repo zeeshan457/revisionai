@@ -2,21 +2,21 @@
 import React from "react";
 import { redirect } from "next/navigation";
 
-import DashboardContent from "@/lib/revisionSchedule";
+import FlashcardGenerator from "@/lib/flashcard";
 import { getCurrentUser } from "@/lib/session";
 
 export const metadata = {
-  title: "Dashboard",
+  title: "Flashcards",
 };
 
-export default async function DashboardPage() {
+export default async function FlashcardsPage() {
   const user = await getCurrentUser();
 
   if (!user) {
     redirect("/login");
   }
 
-  return <DashboardContent />;
+  return <FlashcardGenerator />;
 }
 
 export function client() {

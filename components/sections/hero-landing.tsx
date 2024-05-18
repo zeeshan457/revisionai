@@ -7,21 +7,21 @@ import { buttonVariants } from "@/components/ui/button";
 import { Icons } from "@/components/shared/icons";
 
 export async function HeroLanding() {
-  const { stargazers_count: stars } = await fetch(
-    "https://api.github.com/repos/mickasmt/next-saas-stripe-starter",
-    {
-      ...(env.GITHUB_OAUTH_TOKEN && {
-        headers: {
-          Authorization: `Bearer ${process.env.GITHUB_OAUTH_TOKEN}`,
-          "Content-Type": "application/json",
-        },
-      }),
-      // data will revalidate every hour
-      next: { revalidate: 3600 },
-    },
-  )
-    .then((res) => res.json())
-    .catch((e) => console.log(e));
+  // const { stargazers_count: stars } = await fetch(
+  //   "https://api.github.com/repos/mickasmt/next-saas-stripe-starter",
+  //   {
+  //     ...(env.GITHUB_OAUTH_TOKEN && {
+  //       headers: {
+  //         Authorization: `Bearer ${process.env.GITHUB_OAUTH_TOKEN}`,
+  //         "Content-Type": "application/json",
+  //       },
+  //     }),
+  //     // data will revalidate every hour
+  //     next: { revalidate: 3600 },
+  //   },
+  // )
+  //   .then((res) => res.json())
+  //   .catch((e) => console.log(e));
 
   return (
     <section className="space-y-6 py-12 sm:py-20 lg:py-20">
@@ -42,7 +42,7 @@ export async function HeroLanding() {
         <h1 className="text-balance font-urban text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-[66px]">
           Kick off with a bang with{" "}
           <span className="text-gradient_indigo-purple font-extrabold">
-            RevisionAI
+            ReviseWise
           </span>
         </h1>
 
@@ -50,8 +50,8 @@ export async function HeroLanding() {
           className="max-w-2xl text-balance leading-normal text-muted-foreground sm:text-xl sm:leading-8"
           style={{ animationDelay: "0.35s", animationFillMode: "forwards" }}
         >
-          Unlock the Power of smart Revision with RevisionAI, Where Cutting-Edge
-          Technology Meets Your Creative Potential
+          Unleash the potential of learning with this platform, where technology
+          meets your learning potential!
         </p>
 
         <div

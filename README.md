@@ -8,12 +8,6 @@
 </p>
 
 <p align="center">
-  <a href="https://twitter.com/miickasmt">
-    <img src="https://img.shields.io/twitter/follow/miickasmt?style=flat&label=miickasmt&logo=twitter&color=0bf&logoColor=fff" alt="Mickasmt Twitter follower count" />
-  </a>
-</p>
-
-<p align="center">
   <a href="#introduction"><strong>Introduction</strong></a> ·
   <a href="#installation"><strong>Installation</strong></a> ·
   <a href="#tech-stack--features"><strong>Tech Stack + Features</strong></a> ·
@@ -23,36 +17,6 @@
 <br/>
 
 ## Introduction
-
-Empower your next project with the stack of Next.js 14, Prisma, Neon, Auth.js v5, Resend, React Email, Shadcn/ui, and Stripe.
-<br/>
-All seamlessly integrated with the SaaS Starter to accelerate your development and saas journey.
-
-## Installation
-
-Clone & create this repo locally with the following command:
-
-```bash
-npx create-next-app my-saas-project --example "https://github.com/mickasmt/next-saas-stripe-starter"
-```
-
-1. Install dependencies using pnpm:
-
-```sh
-pnpm install
-```
-
-2. Copy `.env.example` to `.env.local` and update the variables.
-
-```sh
-cp .env.example .env.local
-```
-
-3. Start the development server:
-
-```sh
-pnpm run dev
-```
 
 > [!NOTE]  
 > I use [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) package for update this project.
@@ -128,7 +92,7 @@ https://github.com/mickasmt/next-saas-stripe-starter/assets/62285783/828a4e0f-30
 
 ## Author
 
-Created by [@miickasmt](https://twitter.com/miickasmt) in 2023, released under the [MIT license](https://github.com/shadcn/taxonomy/blob/main/LICENSE.md).
+Created by [Zeeshan] in 2023, released under the [MIT license](https://github.com/shadcn/taxonomy/blob/main/LICENSE.md).
 
 ## Credits
 

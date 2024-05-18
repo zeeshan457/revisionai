@@ -13,10 +13,8 @@ export function Features() {
           <HeaderSection
             label="Features"
             title="Discover all features."
-            subtitle="Harum quae dolore inventore repudiandae? orrupti aut temporibus
-          ariatur."
+            subtitle="Uncover the hidden gems waiting to be discovered."
           />
-
           <div className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((feature) => (
               <div
@@ -54,7 +52,7 @@ export function Features() {
                       className="px-4"
                     >
                       <Link href="/" className="flex items-center gap-2">
-                        <span>Visit the site</span>
+                        <span>Home</span>
                         <Icons.arrowUpRight className="size-4" />
                       </Link>
                     </Button>

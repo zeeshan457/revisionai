@@ -36,7 +36,7 @@ const pricingFaqData = [
     id: "item-5",
     question: "Is there a trial period for the paid plans?",
     answer:
-      "We offer a 14-day free trial for both the Pro Monthly and Pro Annual plans. It's a great way to experience all the features before committing to a paid subscription.",
+      "We offer a 7-day free trial for both the Pro Monthly and Pro Annual plans. It's a great way to experience all the features before committing to a paid subscription.",
   },
 ];
 

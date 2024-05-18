@@ -2,31 +2,32 @@ import { DashboardConfig } from "types"
 
 export const dashboardConfig: DashboardConfig = {
   mainNav: [
-    {
-      title: "Documentation",
-      href: "/docs",
-    },
-    {
-      title: "Support",
-      href: "/support",
-      disabled: true,
-    },
+    // {
+    //   title: "Documentation",
+    //   href: "/docs",
+    //   disabled: true,
+    // },
+    // {
+    //   title: "Support",
+    //   href: "/support",
+    //   disabled: true,
+    // },
   ],
   sidebarNav: [
     {
-      title: "Panel",
+      title: "Revision Scheduler",
       href: "/dashboard",
       icon: "post",
     },
     {
-      title: "Billing",
-      href: "/dashboard/billing",
-      icon: "billing",
+      title: "Flashcards Generator",
+      href: "/dashboard/flashcards",
+      icon: "media",
     },
     {
-      title: "Settings",
-      href: "/dashboard/settings",
-      icon: "settings",
+      title: "Practice Quizes",
+      href: "/",
+      icon: "post",
     },
   ],
 }

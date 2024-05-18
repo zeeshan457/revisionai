@@ -33,8 +33,8 @@ export default async function BillingPage() {
           <Icons.warning />
           <AlertTitle>This is a demo app.</AlertTitle>
           <AlertDescription>
-            SaaS Starter app is a demo app using a Stripe test environment. You
-            can find a list of test card numbers on the{" "}
+            ReviseAI is a demo app using a Stripe test environment. You can find
+            a list of test card numbers on the{" "}
             <a
               href="https://stripe.com/docs/testing#cards"
               target="_blank"

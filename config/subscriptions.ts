@@ -6,14 +6,14 @@ export const pricingData: SubscriptionPlan[] = [
     title: 'Starter',
     description: 'For Beginners',
     benefits: [
-      'Up to 100 monthly posts',
-      'Basic analytics and reporting',
-      'Access to standard templates',
+      'Revision scheduler',
+      'Practice quizes',
+      'Flashcard generator',
     ],
     limitations: [
       'No priority access to new features.',
-      'Limited customer support',
-      'No custom branding',
+      'Limited customer support.',
+      'No AI Chatbot Assistant / Revison Analytics.',
       'Limited access to business resources.',
     ],
     prices: {
@@ -29,43 +29,40 @@ export const pricingData: SubscriptionPlan[] = [
     title: 'Pro',
     description: 'Unlock Advanced Features',
     benefits: [
-      'Up to 500 monthly posts',
-      'Advanced analytics and reporting',
-      'Access to business templates',
-      'Priority customer support',
-      'Exclusive webinars and training.',
+      'Revision scheduler',
+      'Practice quizes',
+      'Flashcard generator',
+      'AI Chatbot Assistant',
+      'Revision Analytics.',
+      'Task Management Integration.',
     ],
     limitations: [
-      'No custom branding',
+      'No custom branding.',
       'Limited access to business resources.',
     ],
     prices: {
-      monthly: 15,
-      yearly: 144,
+      monthly: 10,
+      yearly: 105,
     },
     stripeIds: {
       monthly: env.NEXT_PUBLIC_STRIPE_PRO_MONTHLY_PLAN_ID,
       yearly: env.NEXT_PUBLIC_STRIPE_PRO_YEARLY_PLAN_ID,
     },
   },
-  {
-    title: 'Business',
-    description: 'For Power Users',
-    benefits: [
-      'Unlimited posts',
-      'Real-time analytics and reporting',
-      'Access to all templates, including custom branding',
-      '24/7 business customer support',
-      'Personalized onboarding and account management.',
-    ],
-    limitations: [],
-    prices: {
-      monthly: 30,
-      yearly: 300,
-    },
-    stripeIds: {
-      monthly: env.NEXT_PUBLIC_STRIPE_BUSINESS_MONTHLY_PLAN_ID,
-      yearly: env.NEXT_PUBLIC_STRIPE_BUSINESS_YEARLY_PLAN_ID,
-    },
-  },
+  // {
+  //   title: 'Business',
+  //   description: 'For Power Users',
+  //   benefits: [
+
+  //   ],
+  //   limitations: [],
+  //   prices: {
+  //     monthly: ,
+  //     yearly: ,
+  //   },
+  //   stripeIds: {
+  //     monthly: env.NEXT_PUBLIC_STRIPE_BUSINESS_MONTHLY_PLAN_ID,
+  //     yearly: env.NEXT_PUBLIC_STRIPE_BUSINESS_YEARLY_PLAN_ID,
+  //   },
+  // },
 ];
