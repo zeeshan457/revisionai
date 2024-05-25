@@ -93,44 +93,44 @@ export const features = [
 export const testimonials = [
   {
     name: "John Doe",
-    job: "Full Stack Developer",
+    job: "Lecturer",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
     review:
-      "Using the revision web application has truly revolutionized my development workflow. With its comprehensive features and seamless integration with revision control systems, I've been able to build and deploy projects faster than ever before. The documentation is clear and concise, making it easy to navigate through the setup process. I highly recommend the revision web application to any developer.",
+      "Using this has truly revolutionized my workflow. With its comprehensive features and integration with revision, I've been able to learn new things at an amazing rate.",
   },
   {
     name: "Alice Smith",
-    job: "UI/UX Designer",
+    job: "Student",
     image: "https://randomuser.me/api/portraits/women/2.jpg",
     review:
-      "Thanks to the revision web application, I've been able to create modern and attractive user interfaces in record time. The application provides a solid foundation for building sleek and intuitive designs, allowing me to focus more on the creative aspects of my work.",
+      "Thanks to the website, I've been able to learn more easily and concisely. The platform provides a solid foundation for revising for any person, this also allowed me to focus more on the creative aspects as a student.",
   },
   {
     name: "David Johnson",
     job: "DevOps Engineer",
     image: "https://randomuser.me/api/portraits/men/3.jpg",
     review:
-      "Thanks to the revision web application, I was able to streamline the entire process and manage revisions effectively.",
+      "Thanks to revisewise, I was able to use the entire process and manage my learning effectively.",
   },
   {
     name: "Michael Wilson",
     job: "Project Manager",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
     review:
-      "I'm impressed by the quality of code and clear documentation of the revision web application. Kudos to the team!",
+      "I'm impressed by the quality of different tools on the website. Kudos to the team!",
   },
   {
     name: "Sophia Garcia",
-    job: "Data Analyst",
+    job: "Sudent",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
     review:
-      "The revision web application provided me with the tools I needed to efficiently manage data revisions. Thank you so much!",
+      "Revisewise provided me with the tools I needed to efficiently manage revisions for exams. Thank you so much!!",
   },
   {
     name: "Emily Brown",
     job: "Marketing Manager",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
     review:
-      "The revision web application has been an invaluable asset in my role as a marketing manager. With its seamless integration with revision control systems, I've been able to streamline our marketing campaigns and manage revisions effectively, allowing us to improve our processes and offerings.",
+      "The platform has been an invaluable asset in my role as a marketing manager. With its  integration with revision and learning, I've been able to learn more about my rle using the tools provided. Highly recommended!",
   },
 ];

@@ -51,10 +51,15 @@ export function Features() {
                       rounded="xl"
                       className="px-4"
                     >
-                      <Link href="/" className="flex items-center gap-2">
-                        <span>Home</span>
-                        <Icons.arrowUpRight className="size-4" />
-                      </Link>
+                      {
+                        <Link
+                          href="/dashboard"
+                          className="flex items-center gap-2"
+                        >
+                          <span>Learn more</span>
+                          <Icons.arrowUpRight className="size-4" />
+                        </Link>
+                      }
                     </Button>
                   </div>
                 </div>

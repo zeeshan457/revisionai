@@ -17,7 +17,7 @@ export const dashboardConfig: DashboardConfig = {
     {
       title: "Revision Scheduler",
       href: "/dashboard",
-      icon: "post",
+      icon: "search",
     },
     {
       title: "Flashcards Generator",
@@ -26,7 +26,7 @@ export const dashboardConfig: DashboardConfig = {
     },
     {
       title: "Practice Quizes",
-      href: "/",
+      href: "/dashboard/quiz",
       icon: "post",
     },
   ],

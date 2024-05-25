@@ -4,7 +4,7 @@ import { env } from "@/env.mjs";
 const site_url = env.NEXT_PUBLIC_APP_URL;
 
 export const siteConfig: SiteConfig = {
-  name: "ReviseAI",
+  name: "ReviseWise",
   description:
     "Revise smart using AI and smart tools.",
   url: site_url,
@@ -14,7 +14,7 @@ export const siteConfig: SiteConfig = {
     github: "https://github.com/",
     youtube: "https://youtube.com/", // Added 'youtube' property
   },
-  mailSupport: "support@saas-starter.com",
+  mailSupport: "",
 };
 
 export const footerLinks: SidebarNavItem[] = [

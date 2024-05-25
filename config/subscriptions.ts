@@ -26,7 +26,7 @@ export const pricingData: SubscriptionPlan[] = [
     },
   },
   {
-    title: 'Pro',
+    title: 'Pro (coming soon)',
     description: 'Unlock Advanced Features',
     benefits: [
       'Revision scheduler',
