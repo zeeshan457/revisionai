@@ -26,7 +26,7 @@ export const dashboardConfig: DashboardConfig = {
     },
     {
       title: "Practice Quizes",
-      href: "/dashboard/quiz",
+      href: "/dashboard/quizes",
       icon: "post",
     },
   ],

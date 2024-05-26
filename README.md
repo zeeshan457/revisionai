@@ -4,17 +4,8 @@
 </a>
 
 <p align="center">
-  Start at full speed with ReviseAI, credits to iickasmt
+  Start at full speed with ReviseWise, credits to iickasmt
 </p>
-
-<p align="center">
-  <a href="#introduction"><strong>Introduction</strong></a> ·
-  <a href="#installation"><strong>Installation</strong></a> ·
-  <a href="#tech-stack--features"><strong>Tech Stack + Features</strong></a> ·
-  <a href="#author"><strong>Author</strong></a> ·
-  <a href="#credits"><strong>Credits</strong></a>
-</p>
-<br/>
 
 ## Introduction
 
